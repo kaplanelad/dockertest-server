@@ -131,6 +131,7 @@ impl Server for RedisServer {
 mod tests {
     use super::{RedisServer, RedisServerConfig};
     use crate::Test;
+
     use test_log::test;
 
     const PORT: u32 = 9898;
